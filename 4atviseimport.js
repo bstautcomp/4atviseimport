@@ -1,5 +1,5 @@
-var ACLibrary = {};
-
+var ACLIB = {};
+(function make_aclib(ACLIB){
 //
 const COLS_ATDP = {
 	LOCAL_NAME: 0,
@@ -181,4 +181,4 @@ ACLibrary.readGDPLEntries = readGDPLEntries;
 ACLibrary.readAtDPCells = readAtDPCells;
 ACLibrary.testFoo = testFoo;
 //
-var ACLIB = ACLibrary;
+})(ACLIB);
