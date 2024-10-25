@@ -1,5 +1,3 @@
-var ACLIB = {};
-(function make_aclib(ACLIB){
 //
 const COLS_ATDP = {
 	LOCAL_NAME: 0,
@@ -177,10 +175,6 @@ function testFoo(callParam) {
 }
 
 //
-ACLIB.readGDPLEntries = readGDPLEntries;
-ACLIB.readAtDPCells = readAtDPCells;
-ACLIB.testFoo = testFoo;
-
 return{
 	"ACLIB.testFoo"			: testFoo,
 }
