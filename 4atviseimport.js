@@ -177,8 +177,10 @@ function testFoo(callParam) {
 }
 
 //
-ACLibrary.readGDPLEntries = readGDPLEntries;
-ACLibrary.readAtDPCells = readAtDPCells;
-ACLibrary.testFoo = testFoo;
-//
-})(ACLIB);
+ACLIB.readGDPLEntries = readGDPLEntries;
+ACLIB.readAtDPCells = readAtDPCells;
+ACLIB.testFoo = testFoo;
+
+return{
+	"ACLIB.testFoo"			: testFoo,
+}
