@@ -176,5 +176,5 @@ function testFoo(callParam) {
 
 //
 return{
-	"ACLIB.testFoo"			: testFoo,
+	"ACLIB_testFoo"			: testFoo,
 }
